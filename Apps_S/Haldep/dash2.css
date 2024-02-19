@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.sidebar{
+    z-index: 999;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    background-color: grey;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.active{
+    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
+    border-radius: 100px;
+    
+}
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } 
+  .truemargin{
+    border: 3px solid red;
+    height: 650px;
+    overflow: hidden;
+  }
+
+  .conten{
+    position: absolute;
+    border: 5px solid black;
+    padding: 0 20px;
+    top: 50px;
+    left: 280px;
+    height: 600px;
+    overflow: auto;
+    width: 1000px;
+}
+.chartset{
+    margin: 10px auto 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    position: relative;
+    left: -100px;
+}
+
+.chart{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black; 
+}
+
+.canvas{
+    background-color:  #FAF5EF;
+    padding: 20px;
+    border: 1px solid red;
+    width: 300px;
+}
+
+#frame-1{
+    position: relative;
+    visibility: visible;
+}
+#frame-1 .conten{
+    overflow: auto;
+}
+#frame-2{
+    visibility: hidden;
+}
+
+#frame-2 .conten  a.Username-akun{
+    color: palevioletred;
+}
+
+
+#frame-3{
+    visibility: hidden;
+}
+
+#frame-3 .conten h2{
+    color: black;
+}
+
+#frame-4{
+    visibility: hidden;
+}
+#frame-5{
+    visibility: hidden;
+}
+
+.chart{
+    margin-left: 250px;
+}
+
+th{
+    position: sticky;
+    top: 0;
+}
+.aset-wrapper{
+    width: 90%;
+    border: 2px solid pink;
+}
+.wrap_upload_1{
+    padding: 10px;
+    border: 1px solid black;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.section_masukan_data{
+    padding: 10px;
+    background-color: #F3295D;
+}
+
+.card{
+    position: absolute;
+    margin: 50px auto;
+    width: 18rem;
+}
+
+.card-img-top{
+    width: 100px;
+}
+
+input[name = thumbnaill]{
+    pointer-events: none;
+}
+
+input[name = gmbrthumbnail]{
+    pointer-events: none;
+}
+
+.btn_preview{
+    padding: 10px;
+    text-decoration: none;
+    width: 90px;
+    border: 1px solid black;
+    background-color: lightseagreen;
+    color: white;
+    border-radius: 20%;
+}
+.btn_preview:hover{
+    background-color: lightskyblue;
+}
+
+.frame_nama_user{
+    border-radius: 15%;
+    padding: 10px;
+    width: fit-content;
+    background-color: #B6DDAC;
+}
+
+.nama_user{
+    color: black;
+    font-weight: 300;
+}
+
+.frame-total-aset{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    background-color: #F3295D;
+    display: inline-block;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #BEC9D2;
+    color: black;
+    text-align: center;
+  }

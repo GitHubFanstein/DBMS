@@ -1,0 +1,9 @@
+.section_masukan_data{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.btn_submit_masukan_data{
+    margin-top: 10px;
+}

@@ -1,0 +1,63 @@
+body{
+    background-image: url(../UploadAset/gambar/antigravity-technology-with-elements_23-2148085161.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.frame-login{
+    background-color: aliceblue;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black ;
+    margin: 100px auto;
+    /* background-color: aqua; */
+}
+
+.frame-register{
+    background-color: aliceblue;
+}
+
+.h2-frame-login{
+    text-align: center;
+}
+
+.field-username{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.field-password{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.field-confirm-password{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.button-login-kuy, .button-regis-kuy{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-left: 30px;
+}
+
+
+.frame-register{
+    /* transition: 0.5s; */
+    width: 300px;
+    height: 300px;
+    visibility: hidden;
+    border: 1px solid black ;
+    margin: 100px auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* background-color: cadetblue; */
+}
